@@ -1,0 +1,10 @@
+---
+export interface Props {
+  href: string;
+  text: string;
+}
+
+const { href, text } = Astro.props;
+---
+
+<a href={href} target={href.startsWith("http") ? "_blank" : "_self"} rel="noopener noreferrer">{text}</a>
