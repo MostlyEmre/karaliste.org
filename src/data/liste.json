@@ -1,0 +1,18 @@
+[
+  {
+    "isim": "Starbucks",
+    "tur": "sirket",
+    "ustkurum": "Alshaya",
+    "kategoriler": ["Kafe", "Gida"],
+    "ozet": "Taziye mesaji yayinlamasi cok geci kaldi. Ancak tepkiler buyuyunce depremin 4. gununde bir mesaj yayinladi.",
+    "linkler": ["https://www.hurriyet.com.tr/xxx", "https://archive.org"]
+  },
+  {
+    "isim": "Disney+",
+    "tur": "sirket",
+    "ustkurum": "Disney",
+    "kategoriler": ["Medya", "Streaming"],
+    "ozet": "Ne mesaj, ne yardim.",
+    "linkler": ["https://www.hurriyet.com.tr/xxx", "https://archive.org"]
+  }
+]
