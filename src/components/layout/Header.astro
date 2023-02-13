@@ -1,9 +1,47 @@
 ---
 import Menu from "./Menu.astro";
+import Search from "../Search/Search.astro";
+import H1 from "../typography/H1.astro";
 ---
 
 <header>
-  <h1>karaliste.org</h1>
-  <p>"Günü geldiğinde, şu anda tutuğumuz defteri de açacağız." - Recep Tayyip Erdogan</p>
-  <Menu />
+  <aside>
+    <div class="nav-wrapper">
+      <div class="logo">
+        <a href="/"><H1>karaliste.org</H1></a>
+        <p>"arsiv unutmaz"daki arsiv.</p>
+      </div>
+      <Menu />
+    </div>
+    <Search />
+    <!-- search -->
+  </aside>
 </header>
+
+<style lang="scss">
+  header {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+</style>

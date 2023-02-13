@@ -32,6 +32,7 @@ const { title } = Astro.props;
 </html>
 <style is:global>
   :root {
+    background-color: #333;
     --accent: 124, 58, 237;
     --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
   }
@@ -44,7 +45,8 @@ const { title } = Astro.props;
   body {
     margin: 0;
     padding: 0 10% 0 10%;
-    background-color: #f6f6f6;
+    background-color: #333;
+    color: whitesmoke;
 
     @media (max-width: 768px) {
       padding: 0 10% 0 10%;
